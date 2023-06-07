@@ -1,0 +1,9 @@
+tensorflow
+pandas
+numpy
+matplotlib
+seaborn
+pyYAML
+Flask
+Flask-Cors
+-e .
