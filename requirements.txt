@@ -4,4 +4,4 @@ numpy
 matplotlib
 pyYAML
 Flask
--e .
+#-e .
