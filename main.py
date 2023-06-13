@@ -5,10 +5,9 @@ from src.pipeline.stage03_training import ModelTrainingPipeline
 from src.pipeline.stage04_evaluation import EvaluationPipeline
 
 
-
 STAGE_NAME = "Data Ingestion stage"
 try:
-   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<") 
    data_ingestion = DataIngestionTrainingPipeline()
    data_ingestion.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
